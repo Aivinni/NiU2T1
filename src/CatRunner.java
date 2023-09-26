@@ -1,6 +1,6 @@
 public class CatRunner {
     public static void main(String[] args) {
-        Cat cat1 = new Cat("Fluffy", 19, 8.5);
+        Cat cat1 = new Cat("Fluffy", 3, 8.5);
         cat1.introduce();
         cat1.printCatInfo();
 
