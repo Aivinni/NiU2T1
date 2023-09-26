@@ -17,4 +17,9 @@ public class Rectangle {
         int area = length * width;
         System.out.println("My area is " + area);
     }
+
+    public void printPerimeter() {
+        double perimeter = (length * 2) + (width * 2);
+        System.out.println("My perimeter is " + perimeter);
+    }
 }
